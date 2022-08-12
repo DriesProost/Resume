@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <script src="./js/bootstrap.bundle.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/brands.min.css" integrity="sha512-nS1/hdh2b0U8SeA8tlo7QblY6rY6C+MgkZIeRzJQQvMsFfMQFUKp+cgMN2Uuy+OtbQ4RoLMIlO2iF7bIEY3Oyg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">Dries Proost</a> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" id="homelink" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="aboutlink" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="portfoliolink" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="experiencelink" href="#experience">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="studieslink" href="#studies">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contactlink" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="container-fluid page">
+      <div class="mainText">
+        <h1>Dries Proost</h1>
+        <p>Programmer, developer, web designer.</p>
+        <a href="#about" class="readMoreBtn">Read more</a>
+        <a href="./assets/cv-dries-proost.docx" class="readMoreBtn">Download my resume</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 text-center">
+            <img class="img-rounded" height="300" width="300"
+              src="./assets/297130924_363080019350186_3669976961110212064_n.png" />
+            <div class="social-links">
+              <a href="https://www.facebook.com/dries.proost.7" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/dries_proost/" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/dries-proost-69548ab7/" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="displayFlex flexDirectionColumn h100 justifyContentCenter">
+              <h1>Hi! I'm Dries.</h1>
+              <p class="mb2em">
+               beginner web developer and designer. I have found a passion in making clean
+               and responsive websites. In my spare time it's all about 
+               pursuing creative arts. Drawing, guitar and making videos are among
+               my favorite hobbies. I have found another creative outlet in the
+               making of websites.
+              </p>
+              <p class="mb2em">
+                I started out as a bachelor in biochemistry. I've always loved science and
+                analytical thinking. But the lack of creativity made me re-evaluate my
+                career choice. With two of my brothers working in the IT-sector, I thought
+                maybe programming and web-development was in my blood. 
+                I wasn't wrong...
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Portfolio</h1>
+            <p>Underneath, you'll find my portfolio. Hover over a project to read more about it, or 
+              click the card to instantly get redirected.<br>For now this section is rather
+             empty as I've just started learning. Rest assured this section will soon be filled with many
+             personal projects! </p>
+          </div>
+        </div>
+        <section class="row portfolioRow">
+          <div class="col-lg-4">
+            <div class="imageCard cardImage1">
+              <div class="overlay">
+                <a target="_blank" href="https://www.google.be">
+                  <h3>Music Player</h3>
+                  <p class="moreInfo">C# Console App that will play any music of which you paste the path!</p>
+                  <span class="readMoreButton">Read more</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="imageCard cardImage2">
+              <div class="overlay">
+                <a target="_blank" href="https://www.google.be">
+                  <h3>Work in Progress</h3>
+                  <p class="moreInfo">We're still working on projects as we speak. Constantly learning, constantly
+                    improving!</p>
+                  <span class="readMoreButton">Read more</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="imageCard cardImage3">
+              <div class="overlay">
+                <a target="_blank" href="https://www.google.be">
+                  <h3>To be continued</h3>
+                  <p class="moreInfo">Keep coming back to this page, and see the list continuously expand!</p>
+                  <span class="readMoreButton">Lees meer</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section id="experience" class="page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Skills</h1>
+          </div>
+        </div>
+        <div class="row experienceSection">
+          <div class="col-lg-4">
+            <div class="experienceBackground"></div>
+          </div>
+          <div class="col-lg-8">
+            <div class="experienceProgressBars">
+              <p>HTML</p>
+              <div class="progressBar">
+                <div class="skills html initialWidth">50%</div>
+              </div>
+
+              <p>CSS</p>
+              <div class="progressBar">
+                <div class="skills css initialWidth">50%</div>
+              </div>
+
+              <p>C#</p>
+              <div class="progressBar">
+                <div class="skills js initialWidth">40%</div>
+              </div>
+
+              <p>SQL</p>
+              <div class="progressBar">
+                <div class="skills php initialWidth">60%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="studies" class="page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 style="color:white;">Experience</h1>
+          </div>
+          <section>
+            <div class="container py-5">
+              <div class="main-timeline">
+                <div class="timeline left">
+                  <div class="card">
+                    <div class="card-body p-4">
+                      <h3>2022</h3>
+                      <p class="mb-0">C# development through dotNET Academy.
+                        <ul>
+                          <li>Programmatielogica en Object Oriented Programming
+                          </li>
+                          <li>Gegevensanalyse en SQL</li>
+                          <li>HTML/CSS</li>
+                          <li>JavaScript</li>
+                          <li>.NET C #</li>
+                          <li>Test Driven Development</li>
+                          <li>.NET ASP MVC</li>
+                          <li>.NET Entity Framework</li>
+                          <li>WebAPI</li>
+                          <li>WPF</li>
+                          <li>Scrum</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline right">
+                  <div class="card">
+                    <div class="card-body p-4">
+                      <h3>2022</h3>
+                      <p class="mb-0">analytical chemist at CMA-Herentals. testing for Covid19 on patiënt samples.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline left">
+                  <div class="card">
+                    <div class="card-body p-4">
+                      <h3>2021</h3>
+                      <p class="mb-0">QC-microbiology at Sanofi Geel. Testing for endotoxines in production samples.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline right">
+                  <div class="card">
+                    <div class="card-body p-4">
+                      <h3>2021</h3>
+                      <p class="mb-0">Analytical chemist at Janssen in Beerse through insourcing via Eurofins.
+                        Solubility experiments with chromatographic techniques.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline left">
+                  <div class="card">
+                    <div class="card-body p-4">
+                      <h3>2020</h3>
+                      <p class="mb-0">Process operator at Ajinomoto Omnichem Balen.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline right">
+                  <div class="card">
+                    <div class="card-body p-4">
+                      <h3>2020</h3>
+                      <p class="mb-0">Internship as QC chemist at Covestro in Antwerp. Organical component research.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline left">
+                  <div class="card">
+                    <div class="card-body p-4">
+                      <h3>2016-2020</h3>
+                      <p class="mb-0">Finished studies with a bachelor's degree in chemistry
+                      and  specialization in biochemistry</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="page">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>Contact</h1>
+            <p>If you wish to contact me, just fill in the contact form below.</p>
+            <div class="formspreeForm">
+              <div class="formRow">
+                <input type="text" name="name" id="name" placeholder="name" />
+                <input type="email" name="email" id="email" placeholder="email" />
+              </div>
+              <div class="formRow">
+                <input type="text" name="message" id="message" placeholder="message" />
+              </div>
+              <button id="my-form-button" class="readMoreBtn">Submit</button>
+              <p id="my-form-status"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer></footer>
+</body>
+
+</html>
